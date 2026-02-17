@@ -1,0 +1,74 @@
+{
+    "name": "huseyinfiliz/private-profile-plus",
+    "description": "A Flarum extension that provides tiered profile visibility controls with admin defaults and per-user overrides.",
+    "keywords": [
+        "flarum",
+        "private",
+        "profile",
+        "privacy",
+        "visibility",
+        "members"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huseyin Filiz",
+            "email": "mysuperuser01@gmail.com"
+        }
+    ],
+    "homepage": "https://huseyinfiliz.com.tr/sosyal",
+    "support": {
+        "issues": "https://github.com/huseyinfiliz/private-profile-plus/issues",
+        "source": "https://github.com/huseyinfiliz/private-profile-plus"
+    },
+    "autoload": {
+        "psr-4": {
+            "huseyinfiliz\\PrivateProfilePlus\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "flarum/core": "^1.8.0"
+    },
+    "require-dev": {
+        "flarum/phpstan": "^1.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Private Profile Plus",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-secret",
+                "backgroundColor": "#3498db",
+                "color": "#ffffff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run PHPStan static analysis."
+    }
+}
