@@ -50,7 +50,7 @@ Users can override the global default from their settings page:
 
 - [GitHub](https://github.com/huseyinfiliz/private-profile-plus)
 - [Packagist](https://packagist.org/packages/huseyinfiliz/private-profile-plus)
-- [Discuss](https://discuss.flarum.org/)
+- [Discuss]([https://discuss.flarum.org/](https://discuss.flarum.org/d/38774-private-profile-plus))
 - [Extiverse](https://flarum.org/extension/huseyinfiliz/private-profile-plus)
 
 ## Translate
