@@ -1,7 +1,7 @@
-# Private Profile Plus
+![](https://i.ibb.co/DHNxDfjg/Private-Profile-Plus.png)
+## Private Profile Plus
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-[![Latest Stable Version](https://img.shields.io/packagist/v/huseyinfiliz/private-profile-plus.svg)](https://packagist.org/packages/huseyinfiliz/private-profile-plus)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/huseyinfiliz/private-profile-plus.svg)](https://packagist.org/packages/huseyinfiliz/private-profile-plus) [![Total Downloads](https://img.shields.io/packagist/dt/huseyinfiliz/private-profile-plus.svg)](https://packagist.org/packages/huseyinfiliz/private-profile-plus)
 
 A [Flarum](https://flarum.org/) extension that provides tiered profile visibility controls with admin defaults and per-user overrides.
 
@@ -50,6 +50,12 @@ Users can override the global default from their settings page:
 
 - [GitHub](https://github.com/huseyinfiliz/private-profile-plus)
 - [Packagist](https://packagist.org/packages/huseyinfiliz/private-profile-plus)
+- [Discuss](https://discuss.flarum.org/)
+- [Extiverse](https://flarum.org/extension/huseyinfiliz/private-profile-plus)
+
+## Translate
+[![Translate](https://weblate.rob006.net/widgets/flarum/-/huseyinfiliz-private-profile-plus/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/huseyinfiliz-private-profile-plus/)
+
 
 ## Sponsor
 
